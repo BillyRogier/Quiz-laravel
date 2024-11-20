@@ -66,17 +66,15 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-# Desciption du développement
+## Desciption du développement
 
-Ecrire la manière dont vous allez organiser votre développement, dans quel ordre, et quels items vous allez créer/mettre en place.
-
-## Ordre
+### Ordre
 
  - Initialisation du projet laravel
  - Créer les model et migration de Question, Answer et User
  - Créer les controllers puis les views et les routes
 
-## Items
+### Items
 
  - CRUD Question et answer
  - Register et login avec le model User
