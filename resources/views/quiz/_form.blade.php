@@ -5,9 +5,9 @@
   @endif
 
   <div class="mb-4">
-    <label for="title" class="form-label fw-bold">Texte de la question</label>
+    <label for="title" class="form-label fw-bold">Question</label>
     <input type="text" name="title" id="title" class="form-control @error('title') is-invalid @enderror"
-      value="{{ old('title', $question->title ?? '') }}" placeholder="Entrez le texte de la question" required>
+      value="{{ old('title', $question->title ?? '') }}" placeholder="Entrez la question" required>
     @error('title')
       <div class="invalid-feedback">{{ $message }}</div>
     @enderror
