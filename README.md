@@ -17,10 +17,12 @@
 
 ## Installation
 
-`git clone https://github.com/BillyRogier/Quiz-laravel.git`
-`cd Quiz-laravel`
-`composer install`
-`npm install`
+```
+git clone https://github.com/BillyRogier/Quiz-laravel.git 
+cd Quiz-laravel
+composer install
+npm install
+```
 
 Configurer votre .env
 
